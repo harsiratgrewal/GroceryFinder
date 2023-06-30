@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="displayPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="137.0" prefWidth="396.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SceneController">
+   <children>
+      <Label fx:id="chain" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="14.0" prefHeight="36.0" prefWidth="111.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="address" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="53.0" prefHeight="73.0" prefWidth="119.0" textAlignment="CENTER" wrapText="true" />
+      <ImageView fx:id="logo" fitHeight="60.0" fitWidth="74.0" layoutX="129.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" />
+      <Label contentDisplay="CENTER" layoutX="206.0" layoutY="28.0" prefHeight="17.0" prefWidth="74.0" text="Distance:" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="59.0" prefHeight="20.0" prefWidth="101.0" text="Travel Time:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="88.0" prefHeight="20.0" prefWidth="101.0" text="Estimated Cost:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="distance" alignment="CENTER" contentDisplay="CENTER" layoutX="303.0" layoutY="30.0" prefHeight="17.0" prefWidth="74.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" alignment="CENTER" contentDisplay="CENTER" layoutX="303.0" layoutY="59.0" prefHeight="17.0" prefWidth="74.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="cost" alignment="CENTER" contentDisplay="CENTER" layoutX="303.0" layoutY="88.0" prefHeight="17.0" prefWidth="74.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
