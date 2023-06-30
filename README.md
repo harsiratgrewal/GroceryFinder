@@ -8,8 +8,11 @@ FXML: SceneBuilder
 Project uses active SQL server database, Kroger API, and GoogleMaps API
 
 Following files need to  exist in project folder:
+
 APIinfo.txt - Need GoogleMaps API key from Google cloud, with active API's such as Distance Matrix, Geocoding, and Places
+
 krogerInfo.txt - Need the kroger OAuth2 token to access Kroger Product API and Kroger Location API
+
 dbInfo.txt - Need database url, username, and password
 
 Upcoming additions
