@@ -16,4 +16,5 @@ krogerInfo.txt - Need the kroger OAuth2 token to access Kroger Product API and K
 dbInfo.txt - Need database url, username, and password
 
 Upcoming additions
+
 *Adding data for more retail companies such as Costco, Target, Meijer, etc. Integrate API data from each with the same database schema
