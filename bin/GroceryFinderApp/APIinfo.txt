@@ -1,2 +1,0 @@
-AIzaSyD-RkE_zu4PDlpGs8AIs6qpc3VHnxeof6U
-https://maps.googleapis.com/maps/api/place/autocomplete/json
